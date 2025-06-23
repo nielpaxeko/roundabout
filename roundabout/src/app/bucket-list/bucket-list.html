@@ -1,0 +1,14 @@
+<div *ngIf="bucketItems.length === 0; else showItems">
+    <!-- If no items then show alert -->
+    <div class="alert alert-warning">
+        No items in the bucket list to display.
+    </div>
+</div>
+<!-- If list has items then display them -->
+<ng-template #showItems>
+    <ul class="bucket-list">
+        <app-bucket-list-item *ngFor="let item of bucketItems;" [bucketText]="item.bucketText" [(isCompleted)]="item.isCompleted">
+
+        </app-bucket-list-item>
+    </ul>
+</ng-template>
