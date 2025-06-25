@@ -1,0 +1,6 @@
+[
+  { "bucketText": "Visit the 7 wonders of the world", "isCompleted": false },
+  { "bucketText": "Sandboard in Peru", "isCompleted": false },
+  { "bucketText": "Learn French", "isCompleted": true },
+  { "bucketText": "Go skydiving", "isCompleted": false }
+]

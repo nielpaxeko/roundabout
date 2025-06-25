@@ -1,5 +1,5 @@
 import { Component, Output, EventEmitter } from '@angular/core';
-import { bucketItem } from '../../shared/models/bucketItem';
+import { bucketItem } from '../../../shared/models/bucketItem';
 import { FormsModule } from '@angular/forms';
 
 @Component({

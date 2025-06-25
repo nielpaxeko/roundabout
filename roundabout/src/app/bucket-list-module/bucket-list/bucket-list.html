@@ -7,8 +7,8 @@
 <!-- If list has items then display them -->
 <ng-template #showItems>
     <ul class="bucket-list">
-        <app-bucket-list-item *ngFor="let item of bucketItems;" [bucketText]="item.bucketText" [(isCompleted)]="item.isCompleted">
-
+        <!-- Use the bucket list item component to display each item -->
+        <app-bucket-list-item *ngFor="let item of bucketItems;" [bucketItem]="item">
         </app-bucket-list-item>
     </ul>
 </ng-template>

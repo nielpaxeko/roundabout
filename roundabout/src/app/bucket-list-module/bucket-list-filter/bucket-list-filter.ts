@@ -1,5 +1,5 @@
 import { Component, Output, Input, EventEmitter, OnInit } from '@angular/core';
-import { bucketItem } from '../../shared/models/bucketItem';
+import { bucketItem } from '../../../shared/models/bucketItem';
 import { FormsModule } from '@angular/forms';
 
 const filters = [

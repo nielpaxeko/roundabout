@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { bucketItem } from '../../shared/models/bucketItem';
+import { bucketItem } from '../../../shared/models/bucketItem';
 import { CommonModule } from '@angular/common';
 import { BucketListItem } from '../bucket-list-item/bucket-list-item';
 

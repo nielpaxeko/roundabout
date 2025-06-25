@@ -1,0 +1,12 @@
+<div class="container">
+    <!-- Add item form component -->
+    <app-add-item-form (addItem)="bucketItems.push($event)"></app-add-item-form>
+    <!-- Filter items component -->
+    <div class="row mt-3">
+        <app-bucket-list-filter [(filter)]="filter"></app-bucket-list-filter>
+    </div>
+    <!-- Display items component -->
+    <div class="row mt-3">
+        <app-bucket-list [bucketItems]="bucketItems.filter(filter)"></app-bucket-list>
+    </div>
+</div>

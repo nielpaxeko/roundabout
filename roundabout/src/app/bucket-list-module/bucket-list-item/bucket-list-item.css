@@ -1,3 +1,7 @@
 .strikeout {
     text-decoration: line-through;
 }
+
+.form-check {
+    padding-left: 3px;
+}

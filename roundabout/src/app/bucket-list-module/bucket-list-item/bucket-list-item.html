@@ -1,0 +1,9 @@
+<li class = "d-flex justify-content-between">
+    <div class="form-check">
+        <label class="form-check-label" [ngClass]="cssClasses">
+            <input class="checkbox" type="checkbox" [checked]="bucketItem.isCompleted" (click)="toggleItem()">
+            {{ bucketItem.bucketText }}
+        </label>
+        <button type="button" class="btn-close" (click)="removeItem()"></button>
+    </div>
+</li>
